@@ -11,7 +11,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 const mock = true;
 // if (process.env.NODE_ENV === 'development') {
 if (mock) {
-  require('./Mock'); //import是编译时就加载，而require是执行时才加载
+  require('./Mock'); //import是编译时就加载，而require是执行时加载
 }
 
 Vue.config.productionTip = false

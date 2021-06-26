@@ -193,7 +193,7 @@ export default {
       const res = await fileModel.upload(file)
       this.cropVisible = false
       this.form.avatarUrl = res.data.data.url
-      console.log(res)
+      // console.log(res)
     },
   },
   components: {},

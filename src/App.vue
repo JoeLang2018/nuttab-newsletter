@@ -7,8 +7,6 @@
     <core-view />
 
     <core-footer v-if="showFooter" />
-
-    <!-- <core-cta /> -->
   </v-app>
 </template>
 
